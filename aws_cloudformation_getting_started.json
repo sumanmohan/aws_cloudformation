@@ -82,7 +82,11 @@
             "packages" : {
               "yum" : {
                 "httpd"             : [],
-                "php"               : []
+                "php"               : [],
+                "php-mysql"         : [],
+                "mysql-server"      : [],
+                "mysql-libs"        : [],
+                "mysql"             : []
               }
             },
 
