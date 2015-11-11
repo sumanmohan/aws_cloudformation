@@ -132,7 +132,8 @@
               "sysvinit" : {
                 "httpd"    : { "enabled" : "true", "ensureRunning" : "true" },
                 "cfn-hup" : { "enabled" : "true", "ensureRunning" : "true",
-                    "files" : ["/etc/cfn/cfn-hup.conf", "/etc/cfn/hooks.d/cfn-auto-reloader.conf"]}
+                    "files" : ["/etc/cfn/cfn-hup.conf", "/etc/cfn/hooks.d/cfn-auto-reloader.conf"]},
+                "mysqld"   : { "enabled" : "true", "ensureRunning" : "true" }
               }
             }
           }
